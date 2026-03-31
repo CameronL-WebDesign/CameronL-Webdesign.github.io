@@ -1,9 +1,101 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Restaurant Menu</title>
-  </head>
-  <body>
-    
-  </body>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Restaurant Menus</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .menu {
+        width: 400px;
+        height: 550px;
+        color: white;
+        border: 4px solid #333;
+        border-radius: 15px;
+        padding: 20px;
+        margin: 10px;
+        box-sizing: border-box;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        background: rgba(0,0,0,0.6);
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        background: rgba(0,0,0,0.5);
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    /* Individual menu backgrounds */
+    .breakfast {
+        background-image: url('https://images.unsplash.com/photo-1504754524776-8f4f37790ca0');
+    }
+
+    .lunch {
+        background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836');
+    }
+
+    .dinner {
+        background-image: url('https://images.unsplash.com/photo-1499028344343-cd173ffc68a9');
+    }
+</style>
+</head>
+<body>
+
+<div class="menu breakfast">
+    <h2>Breakfast Menu</h2>
+    <ul>
+        <li>Pancakes with Syrup</li>
+        <li>Scrambled Eggs & Toast</li>
+        <li>Bacon & Sausage</li>
+        <li>Fresh Fruit Bowl</li>
+        <li>Coffee</li>
+        <li>Orange Juice</li>
+    </ul>
+</div>
+
+<div class="menu lunch">
+    <h2>Lunch Menu</h2>
+    <ul>
+        <li>Grilled Chicken Sandwich</li>
+        <li>Caesar Salad</li>
+        <li>Cheeseburger & Fries</li>
+        <li>Turkey Wrap</li>
+        <li>Iced Tea</li>
+        <li>Lemonade</li>
+    </ul>
+</div>
+
+<div class="menu dinner">
+    <h2>Dinner Menu</h2>
+    <ul>
+        <li>Steak with Vegetables</li>
+        <li>Spaghetti Bolognese</li>
+        <li>Grilled Salmon</li>
+        <li>Chicken Alfredo</li>
+        <li>Red Wine</li>
+        <li>Sparkling Water</li>
+    </ul>
+</div>
 </html>
