@@ -7,12 +7,73 @@
 </head>
 <body>
 
+  body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "puzzle"
+    "footer";
+  gap: 10px;
+  padding: 10px;
+}
+
+.header {
+  grid-area: header;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.puzzle-section {
+  grid-area: puzzle;
+  background: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  grid-area: footer;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* FLEXBOX PUZZLE */
+.puzzle-container {
+  display: flex;              
+  flex-wrap: wrap;           
+  justify-content: center;    
+  align-items: center;        
+
+  width: 400px;              
+  margin: auto;
+}
+
+/* Puzzle pieces */
+.piece {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+/* Hide faulty piece */
+.faulty {
+  display: none;             
+}
+  
 <div class="grid-container">
 
   <!-- Name + Puzzle Title -->
   <header class="header">
-    <h1>Your Name</h1>
-    <h2>Puzzle: Landscape Puzzle</h2>
+    <h1>Cameron</h1>
+    <h2>Puzzle: Butterflies</h2>
   </header>
 
   <!-- Puzzle Section -->
