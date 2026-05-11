@@ -22,9 +22,7 @@ body{
     position:relative;
 }
 
-/* =========================
-   PENGUINS
-========================= */
+/* PENGUINS */
 
 .penguins{
     width:100%;
@@ -33,9 +31,7 @@ body{
     border:2px solid #cfcfcf;
 }
 
-/* =========================
-   FOOTBALL FIELD
-========================= */
+/* FOOTBALL FIELD */
 
 .field-wrapper{
     position:relative;
@@ -58,9 +54,7 @@ body{
     mix-blend-mode:screen;
 }
 
-/* =========================
-   DINOSAUR
-========================= */
+/* DINOSAUR */
 
 .dino{
     width:100%;
@@ -70,9 +64,7 @@ body{
         drop-shadow(6px 6px 4px rgba(0,0,0,.45));
 }
 
-/* =========================
-   SEAGULL
-========================= */
+/* SEAGULL */
 
 .seagull-box{
     background:#b8b5ff;
@@ -82,9 +74,7 @@ body{
     width:100%;
 }
 
-/* =========================
-   BUTTERFLY
-========================= */
+/* BUTTERFLY */
 
 .butterfly{
     width:100%;
@@ -96,9 +86,7 @@ body{
         brightness(110%);
 }
 
-/* =========================
-   PRESENTING
-========================= */
+/* PRESENTING */
 
 .stage-wrapper{
     position:relative;
