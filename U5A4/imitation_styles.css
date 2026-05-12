@@ -26,8 +26,7 @@ body{
 
 .penguins{
     width:100%;
-    border-radius:50%;
-    filter:sepia(25%);
+    filter:sepia(30%);
     border:2px solid #cfcfcf;
 }
 
@@ -60,8 +59,7 @@ body{
     width:100%;
     filter:
         hue-rotate(180deg)
-        saturate(130%)
-        drop-shadow(6px 6px 4px rgba(0,0,0,.45));
+        drop-shadow(6px 6px 5px rgba(0,0,0,.5));
 }
 
 /* SEAGULL */
@@ -80,9 +78,8 @@ body{
     width:100%;
     border-radius:50%;
     filter:
-        invert(15%)
-        hue-rotate(170deg)
-        saturate(150%)
+        hue-rotate(180deg)
+        saturate(170%)
         brightness(110%);
 }
 
