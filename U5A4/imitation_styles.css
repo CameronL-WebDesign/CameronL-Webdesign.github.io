@@ -72,7 +72,7 @@ body{
 }
 
 .x-icon img { object-position: 0 0; }        
-.o-icon img { object-position: -60px 0; }   
+.o-icon img { object-position: 0px 0; }   
 
 .field-area {
     grid-column: 2 / 10;
