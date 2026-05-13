@@ -98,8 +98,9 @@ body{
 .dino{
     width:100%;
     filter:
-        hue-rotate(180deg)
-        drop-shadow(6px 6px 5px rgba(0,0,0,.5));
+        hue-rotate(170deg)
+        saturate: (140%)
+        drop-shadow(6px 6px 5px rgba(0,0,0,.45));
 }
 
 /* SEAGULL */
