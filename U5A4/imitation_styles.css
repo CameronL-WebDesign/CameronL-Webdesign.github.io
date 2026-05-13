@@ -52,7 +52,8 @@ body{
     grid-template-rows: repeat(6, 60px);
     background-color: #333;
     gap: 2px;
-    width: fit-content;
+    width: 475px;
+    height: 266px;
     margin: 0 auto;
 }
 
