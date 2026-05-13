@@ -98,7 +98,7 @@ body{
 .dino{
     width:100%;
     filter:
-        hue-rotate(170deg)
+        hue-rotate(160deg)
         saturate: (140%)
         drop-shadow(6px 6px 5px rgba(0,0,0,.45));
 }
