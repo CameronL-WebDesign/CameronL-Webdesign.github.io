@@ -51,10 +51,13 @@ body{
     grid-template-columns: 60px repeat(8, 60px) 60px;
     grid-template-rows: repeat(6, 60px);
     background-color: #333;
+    border: 3px solid #fff;
+    padding: 0 40px;
     gap: 2px;
     width: 475px;
     height: 266px;
     margin: 0 auto;
+    border sizing: border-box;
 }
 
 .cell {
