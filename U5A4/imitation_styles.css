@@ -107,10 +107,20 @@ body{
 
 .seagull-box{
     background:#b8b5ff;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:18px;
 }
 
 .seagull{
     width:100%;
+
+    filter:
+        brightness(108%)
+        contrast(95%);
 }
 
 /* BUTTERFLY */
